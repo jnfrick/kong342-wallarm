@@ -21,5 +21,5 @@ docker run -it --rm --name kong \
     -p 8443:8443 \
     -p 8001:8001 \
     -p 8444:8444 \
-    jfrick/kong342-wallarm:latest
+    jnfrick/kong342-wallarm:latest
 ```
