@@ -24,3 +24,8 @@ docker run -it --rm --name kong \
     -p 8444:8444 \
     jnfrick/kong342-wallarm:latest
 ```
+
+you can test detection via:
+```
+curl -kv https://localhost:8443/etc/passwd
+```
