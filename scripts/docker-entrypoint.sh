@@ -61,7 +61,7 @@ if [[ "$1" == "kong" ]]; then
       args="$args --labels $WALLARM_LABELS"
     fi
     if [ -n "$TARANTOOL_MEMORY_GB" ]; then
-      sed -i -e "s|SLAB_ALLOC_ARENA=0.2|SLAB_ALLOC_ARENA=$TARANTOOL_MEMORY_GB|g" /opt/wallarm/env.list
+      sed -i -e "s|SLAB_ALLOC_ARENA=1.0|SLAB_ALLOC_ARENA=$TARANTOOL_MEMORY_GB|g" /opt/wallarm/env.list
     fi
     /opt/wallarm/register-node $args
     /opt/wallarm/supervisord.sh &
