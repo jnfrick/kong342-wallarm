@@ -22,7 +22,7 @@ docker run -it --rm --name kong \
     -p 8443:8443 \
     -p 8001:8001 \
     -p 8444:8444 \
-    jnfrick/kong342-wallarm4102:latest
+    jnfrick/kong342-wallarm:4.10.4
 ```
 
 you can test detection via:
