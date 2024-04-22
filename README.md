@@ -1,6 +1,6 @@
 # kong342-wallarm
 
-Docker image with Kong 3.4.2-ubuntu and Wallarm 4.10.2
+Docker image with Kong 3.4.2-ubuntu and Wallarm 4.10.4
 
 Example of execution:
 ```
