@@ -1,6 +1,6 @@
 # kong342-wallarm
 
-Docker image with Kong 3.4.2-ubuntu and Wallarm 4.10.4
+Docker image with Kong 3.4.2-ubuntu and Wallarm module
 
 Example of execution:
 ```
@@ -22,7 +22,7 @@ docker run -it --rm --name kong \
     -p 8443:8443 \
     -p 8001:8001 \
     -p 8444:8444 \
-    jnfrick/kong342-wallarm:4.10.4
+    jnfrick/kong342-wallarm:4.10.6
 ```
 
 you can test detection via:
