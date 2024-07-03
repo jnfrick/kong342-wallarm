@@ -7,8 +7,8 @@ set -ex
 # /build/busybox wget https://meganode.wallarm.com/4.8/wallarm-4.8.8.x86_64-glibc.sh 
 # sh ./wallarm-4.8.8.x86_64-glibc.sh --target /opt/wallarm --keep --noexec
 
-/build/busybox wget https://meganode.wallarm.com/4.10/wallarm-4.10.6.x86_64-glibc.sh
-sh ./wallarm-4.10.6.x86_64-glibc.sh --target /opt/wallarm --keep --noexec
+/build/busybox wget https://meganode.wallarm.com/4.10/wallarm-4.10.7.x86_64-glibc.sh
+sh ./wallarm-4.10.7.x86_64-glibc.sh --target /opt/wallarm --keep --noexec
 
 cd /opt/wallarm/modules/
 
